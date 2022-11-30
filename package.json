@@ -1,0 +1,19 @@
+{
+  "name": "apollo-server",
+  "version": "1.0.0",
+  "description": "Apollo server with pokemon api",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Juan Andres Caycedo S",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^4.3.2",
+    "@apollo/server": "^4.2.2",
+    "@types/node": "^18.11.9",
+    "graphql": "^16.6.0",
+    "typescript": "^4.9.3"
+  }
+}
